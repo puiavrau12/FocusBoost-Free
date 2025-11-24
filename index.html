@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusBoost - Free</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>FocusBoost - Free</h1>
+
+  <section class="timer">
+    <h2>Pomodoro</h2>
+    <p id="time">25:00</p>
+    <button onclick="startPomodoro()">Iniciar</button>
+    <button onclick="resetPomodoro()">Resetar</button>
+  </section>
+
+  <section class="tasks">
+    <h2>Checklist</h2>
+    <input id="taskInput" placeholder="Nova tarefa...">
+    <button onclick="addTask()">Adicionar</button>
+    <ul id="taskList"></ul>
+  </section>
+
+  <button class="toggle" onclick="toggleTheme()">Alternar Tema</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
